@@ -9,6 +9,7 @@ import {
   ShieldCheck,
   Zap
 } from 'lucide-react';
+import peterRothImg from './assets/peter-roth.webp';
 
 function App() {
   return (
@@ -209,7 +210,7 @@ function App() {
                 position: 'relative',
                 overflow: 'hidden'
               }}>
-                <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, background: 'url("https://images.unsplash.com/photo-1556761175-5973e4b77d61?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80") center/cover', opacity: 0.6 }}></div>
+                <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, background: `url("${peterRothImg}") center/cover`, opacity: 0.8 }}></div>
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, background: 'linear-gradient(to top, rgba(0,0,0,1), transparent)', height: '50%' }}></div>
                 <h3 style={{ position: 'absolute', bottom: '2rem', left: '2rem', fontSize: '2rem', zIndex: 10 }}>Peter Roth <br/><span style={{ fontSize: '1rem', color: 'var(--accent-primary)', fontWeight: 500 }}>Founder & CEO, Scalify</span></h3>
               </div>
